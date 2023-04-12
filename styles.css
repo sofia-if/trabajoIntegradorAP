@@ -1,0 +1,108 @@
+body{
+   /* background-image: url(Fondojpg.webp); 
+    background-size: cover;
+    background-attachment: fixed; */
+    font-family: sans-serif;
+}
+
+/*......................................................................*/
+
+p{
+    color: black;
+}
+
+/*...........A PARTIR DE ACÁ VA TODO LO DEL HEADER..........................*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    max-height: 60px;
+    background-color: beige;
+    align-items: center;
+    padding: 20px;
+    margin: 0%; 
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logo img{
+    height: 50px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+ a{
+    text-decoration: none;
+ }
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+
+nav a:hover{
+    color: red;
+}
+
+/*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
+
+footer{
+    background-color: darkblue;
+    min-height: 60px;
+    align-items: center;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+}
+
+.contenido-footer{
+    color: white;
+    align-items: center;
+}
+
+#eslogan{
+    color: white;
+}
+
+#derechos{
+    color: white;
+}
+
+i{
+    list-style: none;
+    display: flex;
+}
+
+/*...........A PARTIR DE ACÁ VA TODO LO DE LAS SECCIONES..........................*/
+/*...........SECCIÓN DEL HOME.....................*/
+
+#home{
+    background-image: url(Fondojpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 260px;
+    margin: 0%;
+}
+/*...........SECCIÓN DE PROYECTOS.....................*/
+
+#proyectos{
+    background-color: lightcyan;
+}
+
+#nosotros{
+    background-color: lightblue;
+}
+
+#cotizaciones{
+    background-color: lightgreen;
+}
+
+#contacto{
+    background-color: beige;
+}
