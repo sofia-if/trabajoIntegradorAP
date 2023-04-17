@@ -1,108 +1,276 @@
 body{
-   /* background-image: url(Fondojpg.webp); 
-    background-size: cover;
-    background-attachment: fixed; */
-    font-family: sans-serif;
-}
-
-/*......................................................................*/
-
-p{
-    color: black;
-}
-
-/*...........A PARTIR DE ACÁ VA TODO LO DEL HEADER..........................*/
-
-header{
-    display: flex;
-    justify-content: space-between;
-    min-height: 40px;
-    max-height: 60px;
-    background-color: beige;
-    align-items: center;
-    padding: 20px;
-    margin: 0%; 
-}
-
-.logo{
-    display: flex;
-
-}
-
-.logo img{
-    height: 50px;
-    align-items: center;
-    margin-right: 10px;
-}
-
- a{
-    text-decoration: none;
+    /* background-image: url(Fondojpg.webp); 
+     background-size: cover;
+     background-attachment: fixed; */
+     font-family: sans-serif;
  }
-
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
-
-
-nav a:hover{
-    color: red;
-}
-
-/*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
-
-footer{
-    background-color: darkblue;
-    min-height: 60px;
-    align-items: center;
-    padding: 20px;
-    display: grid;
-    justify-content: center;
-}
-
-.contenido-footer{
-    color: white;
-    align-items: center;
-}
-
-#eslogan{
-    color: white;
-}
-
-#derechos{
-    color: white;
-}
-
-i{
-    list-style: none;
-    display: flex;
-}
-
-/*...........A PARTIR DE ACÁ VA TODO LO DE LAS SECCIONES..........................*/
-/*...........SECCIÓN DEL HOME.....................*/
-
-#home{
-    background-image: url(Fondojpg.webp);
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 260px;
-    margin: 0%;
-}
-/*...........SECCIÓN DE PROYECTOS.....................*/
-
-#proyectos{
-    background-color: lightcyan;
-}
-
-#nosotros{
-    background-color: lightblue;
-}
-
-#cotizaciones{
-    background-color: lightgreen;
-}
-
-#contacto{
-    background-color: beige;
-}
+ 
+ /*......................................................................*/
+ 
+ p{
+     color: black;
+ }
+ 
+ /*...........A PARTIR DE ACÁ VA TODO LO DEL HEADER..........................*/
+ 
+ header{
+     display: flex;
+     justify-content: space-between;
+     min-height: 40px;
+     max-height: 60px;
+     background-color: beige;
+     align-items: center;
+     padding: 20px;
+     margin: 0%; 
+ }
+ 
+ .logo{
+     display: flex;
+ 
+ }
+ 
+ .logo img{
+     height: 50px;
+     align-items: center;
+     margin-right: 10px;
+ }
+ 
+  a{
+     text-decoration: none;
+  }
+ 
+ 
+ nav a{
+     font-weight: 600;
+     padding-right: 10px;
+ }
+ 
+ 
+ nav a:hover{
+     color: red;
+ }
+ 
+ /*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
+ 
+ 
+ 
+ 
+ /*
+ footer{
+     background-color: darkblue;
+     min-height: 60px;
+     align-items: center;
+     padding: 20px;
+     display: grid;
+     justify-content: center;
+ }
+ 
+ .contenido-footer{
+     color: white;
+     align-items: center;
+ }
+ 
+ #eslogan{
+     color: white;
+ }
+ 
+ #derechos{
+     color: white;
+ }
+ 
+ i{
+     list-style: none;
+     display: flex;
+ }
+ */
+ 
+ 
+ /*...........A PARTIR DE ACÁ VA TODO LO DE LAS SECCIONES..........................*/
+ /*...........SECCIÓN DEL HOME.....................*/
+ 
+ #home{
+     background-image: url(Fondojpg.webp);
+     background-size: cover;
+     background-attachment: fixed;
+     padding-bottom: 260px;
+     margin: 0%;
+ }
+ 
+ .ppal{
+     color: darkgreen;
+     ;
+     padding-top: 40px;
+ }
+ 
+ .leyenda{
+     font-family: sans-serif;
+     color: white;
+     padding-top: 120px;
+ }
+ 
+ 
+ 
+ /*...........SECCIÓN DE PROYECTOS.....................*/
+ /*
+ #proyectos{
+     background-color: lightcyan;
+ }
+ 
+ #nosotros{
+     background-color: lightblue;
+ }
+ 
+ #cotizaciones{
+     background-color: lightgreen;
+ }
+ 
+ #contacto{
+     background-color: beige;
+ }
+ */
+ 
+ 
+ .container{
+     width: 100%;
+     max-width: 1200px;
+     height: 430px;
+     display: flex;
+     flex-wrap:wrap;
+     justify-content: center;
+     margin: auto;
+ }
+ 
+ .container .card{
+     width: 330px;
+     height: 430px;
+     border-radius: 8px;
+     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+     overflow: hidden;
+     margin: 20px;
+     text-align: center;
+     transition: all 0.25s;
+ }
+ 
+ 
+ .container .card:hover{
+     transform: translate(-15px);
+     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+ }
+ 
+ 
+ .container .card img{
+     width: 330px;
+     height: 220px;
+ }
+ 
+ 
+ .container card h4{
+     font-weight: 600;
+ }
+ 
+ .container .card p{
+     padding: 0 1 rem;
+     font-size: 16px;
+     font-weight: 300;
+ }
+ 
+ 
+ .container .card a{
+     font-weight: 500;
+     text-decoration: none;
+     color: #3498db;
+ }
+ 
+ 
+ /*...............SECCION DE NOSOTROS................................*/
+ 
+ 
+ .title{
+     color: black;
+ }
+ 
+ .equipo p{
+     font-family: sans-serif;
+ }
+ 
+ .foto-grupal img{
+     height:400px;
+     width:400px;
+ }
+ 
+ /*...............SECCION DE COTIZACIONES................................*/
+ 
+ #cotizaciones{
+     background: url(imagenes/fondoCotizaciones.jpg);
+ }
+ 
+ 
+ 
+ /*...............SECCION DE CONTACTO................................*/
+ 
+ 
+ #contacto{
+     background: url(imagenes/fondoContacto.jpg);
+     display: flex;
+     margin: 0;
+ }
+ 
+ form{
+     width: 450px;
+     margin: auto;
+     background: rgba(0, 0, 0, 0.4);
+     padding: 10px 20px;
+     box-sizing: border-box;
+     margin-top: 20px;
+     border-radius: 7px;
+ }
+ 
+ 
+ h2{
+     color: #fff;
+     text-align: center;
+     margin: 0;
+     font-size: 30px;
+     margin-bottom: 20px;
+ }
+ 
+ 
+ span{
+     color: white;
+ }
+ 
+ 
+ 
+ input, textarea, select{
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 7px;
+     box-sizing: border-box;
+     font-size: 17px;
+     border: none;
+ }
+ 
+ textarea{
+     min-height: 100px;
+     max-height: 200px; /*ojo acá con lo responsive*/
+     max-width: 100%;
+ }
+ 
+ .boton{
+     background: linear-gradient(50deg, transparent, orange); /*#31384A;*/
+     color: #fff;
+     padding: 20px;
+     border: none;
+ 
+ }
+ 
+ .boton:hover{
+     cursor: pointer;
+ }
+ 
+ 
+ @media(max-width:480px){     /*acá le agrego funcion de mediaQuery*/
+     form{
+         width: 100%;
+     }
+ }
