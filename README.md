@@ -1,20 +1,19 @@
-# trabajoIntegradorAP
-TP Integrador - “Introducción a la Programación Web” - COMISION 057
+#TP Integrador - “Introducción a la Programación Web” - COMISION 057
 
-iNTEGRANTES:
+**iNTEGRANTES:**  
 IBAÑEZ FECHA SOFIA  
 FERREYRA NICOLAS  
 RONDINELLA FLORENCIA  
 
 
-CONSIGNA
-                                Trabajo Práctico Integrador
+CONSIGNA  
+##Trabajo Práctico Integrador
 
-Objetivo
+###Objetivo
 Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso, con la
 finalidad de agregarlo a sus portfolios personales.
 
-Enunciado
+###Enunciado
 Desarrollar una landing page para una organización/emprendimiento/empresa
 (rubro/actividad a elección del estudiante) que cumpla, mínimamente, con los siguientes
 requisitos:
@@ -40,12 +39,12 @@ requisitos:
 ○ Consumo de API Externa a través de AJAX
 ○ Visualización de los Resultados Obtenidos
 
-Tecnologías a utilizar
+###Tecnologías a utilizar
 ● HTML
 ● CSS
 ● JS
 
-Paso a paso sugerido
+###Paso a paso sugerido
 1) Definir Wireframes y Bocetos del Sitio
 2) Generar Repositorio Git
 3) Generar las Maquetas
