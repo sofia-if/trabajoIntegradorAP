@@ -49,6 +49,14 @@ nav a:hover{
     color: rgb(143, 142, 142);
 }
 
+#volver{
+    text-align: center;
+    margin: 43%;
+    font-size: 18px;
+    margin-bottom: 20px;
+ 
+ }
+
 /*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
 
 .container{
@@ -63,17 +71,13 @@ nav a:hover{
     font-size: 18px;
     padding-top: 40px;
 }
-
-#footer a{
-    text-align: center;
-    margin: 43%;
-    font-size: 18px;
-    margin-bottom: 20px;
- 
- }
  
  p {
     text-align: center;
+ }
+
+ #tituloContacto{
+    font-weight: bold;
  }
 
 
@@ -240,8 +244,9 @@ nav a:hover{
 
 #cotizaciones{
     background: url(imagenes/fondoCotizaciones.jpg);
-    padding-bottom: 30px;
+    padding-bottom: 120px;
     padding-top: 30px;
+    pad
     
 }
 
