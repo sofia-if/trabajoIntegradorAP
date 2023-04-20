@@ -6,10 +6,10 @@ FERREYRA NICOLAS
 RONDINELLA FLORENCIA  
 
 
-CONSIGNA  
-##Trabajo Práctico Integrador
+CONSIGNA    
+## Trabajo Práctico Integrador
 
-###Objetivo
+### Objetivo
 Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso, con la
 finalidad de agregarlo a sus portfolios personales.
 
