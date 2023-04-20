@@ -13,7 +13,7 @@ CONSIGNA
 Concretar un proyecto aplicando los conocimientos impartidos a lo largo del curso, con la
 finalidad de agregarlo a sus portfolios personales.
 
-###Enunciado
+### Enunciado  
 Desarrollar una landing page para una organización/emprendimiento/empresa
 (rubro/actividad a elección del estudiante) que cumpla, mínimamente, con los siguientes
 requisitos:
@@ -30,21 +30,21 @@ requisitos:
 ○ Generación de Resumen (No Editable)
 ○ Exportación a PDF
 
-● El sitio debe utilizar las siguientes Bibliotecas
+● El sitio debe utilizar las siguientes Bibliotecas  
 ○ Uso de Bibliotecas JS
 ■ JQuery
 ■ Validate.JS
 
-● El sitio debe contar con una Integración
+● El sitio debe contar con una Integración  
 ○ Consumo de API Externa a través de AJAX
 ○ Visualización de los Resultados Obtenidos
 
-###Tecnologías a utilizar
+### Tecnologías a utilizar   
 ● HTML
 ● CSS
 ● JS
 
-###Paso a paso sugerido
+### Paso a paso sugerido   
 1) Definir Wireframes y Bocetos del Sitio
 2) Generar Repositorio Git
 3) Generar las Maquetas
