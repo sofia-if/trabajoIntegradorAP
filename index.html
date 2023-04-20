@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Trabajo Práctico Integrador</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"> <!-- aca incluí el link de Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPERT DESIGN HOME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"><!-- aca incluí el link de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> <!-- aca va el otro link de Bootstrap por los íconos -->
-    <link rel="stylesheet" href="styles.css"/> <!--linkeo el css-->
-    <script type="text/javascript" src="javascript.js"></script>  <!--linkeo el Javascript-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/validationEngine.jquery.min.css" integrity="sha512-fvBUZJJBrJrzrFYM/EN2isPokoNnx331y30ZXIxRRlop1aq6rT6d8oY6WJVsiXZoso0dIZ2nbQjtGLi6Kkxr/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!--archivo css del pugin validation jquery-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Quicksand:wght@500&display=swap" rel="stylesheet"> <!--aca incluí el link de Google Fonts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script><!--acá agregué el jquery-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script> <!--acá agregué el jquery validation-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script><!--acá agregué el AJAX-->
+    <link rel="shortcut icon" href="imagenes/NuestroLogo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css"/> <!--linkeo el CSS nativo/propio-->
+    <script type="text/javascript" src="javascript.js"></script> <!--linkeo el Javascript nativo/propio-->
 </head>
 
 <body>
@@ -17,7 +22,7 @@
 <!-- ............................HEADER...............................................-->
 
 <header id="uno">
-    <div class="logo"><img src="imagenes/logo.png" alt="logo"></div>
+    <div class="logo"><img src="imagenes/NuestroLogo.png" alt="logo"></div>
     <nav>
         
             <a href="#home">Home</a>
@@ -30,23 +35,25 @@
 </header>
 <!-- .......................SECCION HOME..................................................-->
 
+
+
 <main>
-  <div class="principal">
+  <div class="ppal">
     <section id="home">
-            <h2 class="ppal">Somos expertos en reformas integrales.</h2>
-            <h3 class="ppal">Diseñá tus espacios.</h3>
-                <p class="leyenda">El Diseñador de Interiores de "...nombre de la empresa..." es un profesional creativo, con un pensamiento y una metodología innovadora, que analiza, investiga y resuelve todo tipo de espacios (familiares, comerciales, sociales, deportivos, empresarios y otros) integrando soluciones funcionales, estéticas, comunicacionales y tecnológicas.</p>
+            <h2 class="ppal">EXPERT DESIGN HOME</h2>
+            <h3 class="secundario">Somos expertos en reformas integrales.</h3>
+                <p class="leyenda">El Diseñador de Interiores de "EDH" es un profesional creativo, con un pensamiento y una metodología innovadora, que analiza, investiga y resuelve todo tipo de espacios (familiares, comerciales, sociales, deportivos, empresarios y otros) integrando soluciones funcionales, estéticas, comunicacionales y tecnológicas.</p>
     </section>
    </div>
 </main>
 
 
+
+
 <!-- ............................SECCION PROYECTOS.........................................-->
 
 <section id="proyectos">
-<h2 class="title">Una selección de nuestros trabajos.</h2>
-<h3>Encontrá tu estilo.</h3>
-<!------------------------------------>
+ <h2 class="titulodeproyectos">Encontrá tu estilo...</h2>
 <div class="container">
     <div class="card">
         <img src="imagenes/living comedor industrial.jpg">
@@ -70,32 +77,8 @@
     </div>
 
 </div>
-<br>
-<br>
-<!--------------------->
-<!--<h4>Industrial</h4>
-<img class="living-comedor" src="imagenes/living comedor industrial.jpg" alt="industrial" height="400px" width="400px"/>
-<img class="dormitorio" src="imagenes/industrial.jpg" alt="industrial" height="400px" width="400px"/>
-<img class="baño" src="imagenes/baño industrial.jpg" alt="industrial" height="400px" width="400px"/>
-
-<h4>Nórdico</h4>
-<img class="living-comedor" src="imagenes/living comedor nordico.jpg" alt="nordico" height="400px" width="400px"/>
-<img class="dormitorio" src="imagenes/nordico.jpg"alt="nordico" height="400px" width="400px"/>
-<img class="baño" src="imagenes/baño nordico.jpg"alt="nordico" height="400px" width="400px"/>
-
-<h4>Wabi Sabi</h4>
-<img class="living-comedor" src="imagenes/Wabi Sabi living comedor.jpg"alt="wabi sabi" height="400px" width="400px"/>
-<img class="dormitorio" src="imagenes/wabi sabi.png" alt="wabi sabi" height="400px" width="400px"/>
-<img class="baño" src="imagenes/baño wabi sabi.jpg"alt="wabi sabi" height="400px" width="400px"/>
-
-<h4>Clásico renovado</h4>
-<img class="living-comedor" src="imagenes/clasico renovadoliving comedor.jpg" alt="clasico renovado" height="400px" width="400px"/>
-<img class="dormitorio" src="imagenes/Dormitorio clásico renovado.jpg" alt="clasico renovado" height="400px" width="400px"/>
-<img class="baño" src="imagenes/baño clasico renovado.jpg" alt="clasico renovado" height="400px" width="400px"/>
-
 </section>
-</div>
------------------------->
+
 
 
 
@@ -103,38 +86,72 @@
 
 
 <section id="nosotros">
-<h2 class="title">Nosotros</h2>
-<div class="equipo">
-<p>La esencia de este estudio está encarnada en nuestros Fundadores, quienes en el 2023 tomaron la iniciativa de crear este emprendimiento. En aquel entonces, Florencia, Nicolás y Sofía estaban dedicados a trabajar por su cuenta en otros estudios de arquitectura e interiorismo antes de dar el gran salto. Pero la base de nuestro éxito está también vinculada a un equipo altamente cualificado de colaboradores y parteners que comparten nuestro entusiasmo. Su aporte nos ha permitido trabajar con empresas de renombre como Adecco, Banco Santander, Euskaltel, LG, Telefónica, Sony, Toyota y muchas otras más.</p>
-</div>
-<div class="foto-grupal">
-    <img src="imagenes/nosotros.jpg">
-</div>
-</section>
-<br>
-<br>
+    <div class="contenedor">
+        <div class="row">
+            <div class="col">
+             <h4 id="nos">Nosotros</h4>
+                <p class="parrafo">La esencia de este estudio está encarnada en nuestros fundadores, quienes en el 2023 tomaron la iniciativa de crear este emprendimiento. En aquel entonces, Florencia, Nicolás y Sofía estaban dedicados a trabajar por su cuenta en otros estudios de arquitectura e interiorismo antes de dar el gran salto. Pero la base de nuestro éxito está también vinculada a un equipo altamente cualificado de colaboradores y parteners que comparten nuestro entusiasmo. Su aporte nos ha permitido trabajar con empresas de renombre como Adecco, Banco Santander, Euskaltel, LG, Telefónica, Sony, Toyota y muchas otras más.</p>
+            </div>
 
-<!-- ...........................SECCION COTIZACIONES................................................-->
+            <div class="col">
+                 <img src="imagenes/nosotros.jpg" alt="equipo" id="equipo">
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+<!-- ...........................SECCION COTIZACIONES.............................-->
 
 <section id="cotizaciones">
-<h2 class="title">Cotizaciones</h2>
-<h3>Cotizá el ambiente de tus sueños</h3>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, quo. Ea temporibus sit animi sunt ullam qui totam dolore. Repellendus ratione sint ipsum quam ad numquam labore possimus quis amet?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt autem rerum soluta cumque aliquid ab quibusdam nihil harum, ad maiores dignissimos, itaque commodi, vero rem provident similique. Veniam, minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem modi veniam temporibus sint at, quam in recusandae assumenda commodi! Reprehenderit molestias error nesciunt sit est animi eum vitae distinctio Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor fugit distinctio, expedita doloribus magnam, saepe ducimus id pariatur a earum culpa quidem labore quasi amet consequatur repellat deserunt. Autem?  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam culpa facilis labore nihil. Delectus recusandae culpa nulla eligendi illum. Aspernatur, earum eaque nulla mollitia ratione ducimus numquam nobis nostrum explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore distinctio eaque, nam sed reprehenderit numquam consequuntur consequatur placeat, beatae eveniet animi nesciunt, nihil a at est molestias quod corporis earum.</p>
-</section>
+    <h2>Cotizá el hogar de tus sueños</h2>
+    <form id="formularioProceso" method="post">
+
+        
+        
+        <label for="tipo">Tipo de ambiente:</label>
+        <select id="tipo" name="tipo">
+          <option value="comedor">Comedor</option>
+          <option value="living">Living</option>
+          <option value="baño">Baño</option>
+          <option value="dormitorio">Dormitorio</option>
+        </select>
 
 
-<!-- ...........................SECCION CONTACTO................................................-->
+
+        <label for="metros">Metros cuadrados (m²)*:</label>
+        <input type="number" id="metros" name="metros">
+
+
+        <label for="option">ESTILO</label>
+        <select id="estilo" class="form-select">
+          <option selected>Elige tu estilo decorativo</option>
+          <option value=100>Industrial</option>
+          <option value=200>Minimalista</option>
+          <option value=400>Clásico Renovado</option>
+          <option value=300>Wabi Sabi</option>
+        </select>
+
+
+        <button type="submit">COTIZAR AHORA</button>
+        
+    </form>
+</section> 
+
+
+<!-- ...........................SECCION CONTACTO...........................................-->
 
 <section id="contacto">
-<form>
+<form id="formularioContacto">
     <h2 class="title">Contactanos</h2>
-    <span>NOMBRE*</span>
-    <input type="text" name="nombre" value="" placeholder="">
-    <span>EMAIL*</span>
-    <input type="email" name="email" value="" placeholder="">
-    <span>ASUNTO</span>    
-    <input type="text" name="asunto" value="" placeholder="">
-    <span>ESTILO</span>
+
+    <label for="nombre">NOMBRE*</label>
+    <input type="nombre" id="nombre" name="nombre" required placeholder="">
+    <label for="email">EMAIL*</label>
+    <input type="email" id="email" name="email" required placeholder="">
+    <label for="text">ASUNTO</label>    
+    <input type="text" id="asunto" name="asunto" value="" placeholder="">
+    <label for="option">ESTILO</label>
     <select class="form-select">
         <option selected>Elige tu estilo decorativo</option>
         <option value="1">Industrial</option>
@@ -142,86 +159,39 @@
         <option value="3">Clásico Renovado</option>
         <option value="4">Wabi Sabi</option>
     </select>
-    <span>MENSAJE</span>
-    <textarea name="mensaje" value="" placeholder="Dejanos aquí tu mensaje"></textarea>
-    <button class="boton" onclick="guardarDatos()" type="submit">ENVIAR</button>
+    <label for="mensaje">MENSAJE*</label>
+    <textarea  id="mensaje" name="mensaje" required placeholder="Dejanos aquí tu mensaje"></textarea>
+    <input id="boton" type="submit" value="Enviar">
 </form>
 </section>
 
-<!-- ...........................................................................-->
 
-<a href="#uno">Volver a comenzar</a>     
-
-<!-- ...........................FOOTER................................................-->
-
-<footer class="text-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <h4>Sweet Home</h4>
-                <p>Renová tu hogar con nosotros.</p>
-            </div>
-            
-           
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                <p><i class="fas fa-home me-3 text-secondary"></i>Panamericana Km 50, Pilar - Buenos Aires</p>
-                <p>
-                  <i class="fas fa-envelope me-3 text-secondary"></i>
-                  sweethome@gmail.com
-                </p>
-                <p><i class="fas fa-phone me-3 text-secondary"></i> 011 34638920</p>
-              </div>
-
-            <div class="col-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.2002860891525!2d-58.87051358543999!3d-34.44706338050032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c5713587819%3A0x39ea2834d34ffd98!2sLas%20Palmas%20del%20Pilar!5e0!3m2!1ses!2sar!4v1681261773971!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-            </div>
-
-        </div>
-   </div>
+<!--...........................FOOTER................................................-->
+<br>
+<br>
+<section id="footer">
+<a href="#uno">Volver a comenzar</a>  
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <h3 class="text-center">Contacto</h3>
+                <p><i class="bi bi-geo-alt-fill"></i> Panamericana Km 50, Pilar - Buenos Aires</p>
+                <p><i class="bi bi-envelope-fill"></i> edh@gmail.com</p>
+                <p><i class="bi bi-whatsapp"></i> 011 34638920</p>
+    </div>
 
 
-<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-© Copyright 2023 | Todos los derechos reservados | Desarrollado por ...
+    <div class="col">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.2002860891525!2d-58.87051358543999!3d-34.44706338050032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c5713587819%3A0x39ea2834d34ffd98!2sLas%20Palmas%20del%20Pilar!5e0!3m2!1ses!2sar!4v1681261773971!5m2!1ses!2sar" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+    </div>
+
+    <div class="text-center" style="background-color: rgb(87, 87, 87); color:white; padding-top: 50px;">© Copyright 2023 | Todos los derechos reservados | Desarrollado por Florencia, Nicolas y Sofía</div>
+    
+  </div>
 </div>
 
 </footer>
-
-
-
-
-
-
-<!--
-<footer>
-    <div class="contenido-footer">
-        <h3>Nombre de la empresa</h3>
-        <p id="eslogan">Renová tu hogar con nosotros.</p>
-        <ul class="redes-sociales>
-            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>  
-        </ul> 
-    </div>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.2002860891525!2d-58.87051358543999!3d-34.44706338050032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9c5713587819%3A0x39ea2834d34ffd98!2sLas%20Palmas%20del%20Pilar!5e0!3m2!1ses!2sar!4v1681261773971!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-<section class="angosto">
-    <footer class="footer-angosto">
-        <p id="derechos">Copyright 2023 | Todos los derechos reservados | Desarrollado por ... </p>
-</footer>
 </section>
-
-
--->
-
-<!-- ...........................VALIDACION JS................................................-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/jquery-1.8.2.min.js" integrity="sha512-TioVFI1HfPAFh7BGAsuCB76vIrmMroWB+yRNKnTan26OBCdpdH9DWYoTxZbjW8kCKH3QDItheAEVso5N7+w75g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><!--inclusiond e jquery 1.8.2-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/languages/jquery.validationEngine-es.min.js" integrity="sha512-GCKyaseskD91hTJv68w+ldDh2vU5iURF1/pIDyAY+Bv3MZhceURuVe3GZMgPXYUb+W41oTHz2CRrTOhkdvE6SQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!--notas en idioma espaol-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Validation-Engine/2.6.4/jquery.validationEngine.min.js" integrity="sha512-MKqdT8JgKftxlK6oK4S+Hh44ivKyaPncl6qN9JZEGKJGQZJMiSoPzehLcbvd/1XMieEP1Q4A3wzzhTrvBUUcUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!--pugin-->
-
 
 </body>
 </html>

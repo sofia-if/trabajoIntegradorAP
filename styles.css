@@ -1,278 +1,369 @@
 body{
-    /* background-image: url(Fondojpg.webp); 
-     background-size: cover;
-     background-attachment: fixed; */
-     font-family: sans-serif;
-     /*background-image: linear-gradient(-45deg, #e3ddd9 50%, #9c6e98 50%);*/
- }
- 
- /*......................................................................*/
- 
- p{
-     color: black;
- }
- 
- /*...........A PARTIR DE ACÁ VA TODO LO DEL HEADER..........................*/
- 
- header{
-     display: flex;
-     justify-content: space-between;
-     min-height: 40px;
-     max-height: 60px;
-     /*background-color: beige;*/
-     align-items: center;
-     padding: 20px;
-     margin: 0%; 
- }
- 
- .logo{
-     display: flex;
- 
- }
- 
- .logo img{
-     height: 50px;
-     align-items: center;
-     margin-right: 10px;
- }
- 
-  a{
-     text-decoration: none;
-  }
- 
- 
- nav a{
-     font-weight: 600;
-     padding-right: 10px;
- }
- 
- 
- nav a:hover{
-     color: red;
- }
- 
- /*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
- 
- 
- 
- 
- /*
- footer{
-     background-color: darkblue;
-     min-height: 60px;
-     align-items: center;
-     padding: 20px;
-     display: grid;
-     justify-content: center;
- }
- 
- .contenido-footer{
-     color: white;
-     align-items: center;
- }
- 
- #eslogan{
-     color: white;
- }
- 
- #derechos{
-     color: white;
- }
- 
- i{
-     list-style: none;
-     display: flex;
- }
- */
- 
- 
- /*...........A PARTIR DE ACÁ VA TODO LO DE LAS SECCIONES..........................*/
- /*...........SECCIÓN DEL HOME.....................*/
- 
- #home{
-     background-image: url(Fondojpg.webp);
-     background-size: cover;
-     background-attachment: fixed;
-     padding-bottom: 260px;
-     margin: 0%;
- }
- 
- .ppal{
-     color: darkgreen;
-     ;
-     padding-top: 40px;
- }
- 
- .leyenda{
-     font-family: sans-serif;
-     color: white;
-     padding-top: 120px;
- }
- 
- 
- 
- /*...........SECCIÓN DE PROYECTOS.....................*/
- /*
- #proyectos{
-     background-color: lightcyan;
- }
- 
- #nosotros{
-     background-color: lightblue;
- }
- 
- #cotizaciones{
-     background-color: lightgreen;
- }
- 
- #contacto{
-     background-color: beige;
- }
- */
- 
- 
- .container{
-     width: 100%;
-     max-width: 1200px;
-     height: 430px;
-     display: flex;
-     flex-wrap:wrap;
-     justify-content: center;
-     margin: auto;
- }
- 
- .container .card{
-     width: 330px;
-     height: 430px;
-     border-radius: 8px;
-     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-     overflow: hidden;
-     margin: 20px;
-     text-align: center;
-     transition: all 0.25s;
- }
- 
- 
- .container .card:hover{
-     transform: translate(-15px);
-     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
- }
- 
- 
- .container .card img{
-     width: 330px;
-     height: 220px;
- }
- 
- 
- .container card h4{
-     font-weight: 600;
- }
- 
- .container .card p{
-     padding: 0 1 rem;
-     font-size: 16px;
-     font-weight: 300;
- }
- 
- 
- .container .card a{
-     font-weight: 500;
-     text-decoration: none;
-     color: #3498db;
- }
- 
- 
- /*...............SECCION DE NOSOTROS................................*/
- 
- 
- .title{
-     color: black;
- }
- 
- .equipo p{
-     font-family: sans-serif;
- }
- 
- .foto-grupal img{
-     height:400px;
-     width:400px;
+
+    font-family: sans-serif;
+    background: linear-gradient(rgb(21, 18, 27), rgba(155, 89, 182, 0.6), rgb(71, 55, 55));;
+}
+
+/*......................................................................*/
+
+
+
+/*...........A PARTIR DE ACÁ VA TODO LO DEL HEADER..........................*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    max-height: 60px;
+    align-items: center;
+    padding: 20px;
+    margin: 0%; 
+}
+
+.logo{
+    display: flex;
+
+}
+
+.logo img{
+   width: 90px;
+   height: 70px;
+   align-items: center;
+   margin-top: 10px;
+   margin-right: 10px;
+}
+
+ a{
+    text-decoration: none;
  }
 
- 
- /*...............SECCION DE COTIZACIONES................................*/
- 
- #cotizaciones{
-     background: url(imagenes/fondoCotizaciones.jpg);
- }
- 
- 
- 
- /*...............SECCION DE CONTACTO................................*/
- 
- 
- #contacto{
-     background: url(imagenes/fondoContacto.jpg);
-     display: flex;
-     margin: 0;
- }
- 
- form{
-     width: 450px;
-     margin: auto;
-     background: rgba(0, 0, 0, 0.4);
-     padding: 10px 20px;
-     box-sizing: border-box;
-     margin-top: 20px;
-     border-radius: 7px;
- }
- 
- 
- h2{
-     color: #fff;
-     text-align: center;
-     margin: 0;
-     font-size: 30px;
-     margin-bottom: 20px;
- }
- 
- 
- span{
-     color: white;
- }
- 
- 
- 
- input, textarea, select{
-     width: 100%;
-     margin-bottom: 20px;
-     padding: 7px;
-     box-sizing: border-box;
-     font-size: 17px;
-     border: none;
- }
- 
- textarea{
-     min-height: 100px;
-     max-height: 200px; /*ojo acá con lo responsive*/
-     max-width: 100%;
- }
- 
- .boton{
-     background: linear-gradient(50deg, transparent, orange); /*#31384A;*/
-     color: #fff;
-     padding: 20px;
-     border: none;
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color:rgb(255, 255, 255)
+}
+
+
+nav a:hover{
+    color: rgb(143, 142, 142);
+}
+
+/*...................A PARTIR DE ACÁ VA LO DEL FOOTER.................................*/
+
+.container{
+    padding-top: 50px;
+    
+}
+
+.text-center{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+#footer a{
+    text-align: center;
+    margin: 43%;
+    font-size: 18px;
+    margin-bottom: 20px;
  
  }
  
- .boton:hover{
-     cursor: pointer;
+ p {
+    text-align: center;
  }
- 
- 
- @media(max-width:480px){     /*acá le agrego funcion de mediaQuery*/
-     form{
-         width: 100%;
-     }
- }
+
+
+/*...........A PARTIR DE ACÁ VA TODO LO DE LAS SECCIONES..........................*/
+
+/*...........SECCIÓN DEL HOME.....................*/
+
+#home{
+    background-image: url(imagenes/Fondojpg.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 260px;
+    margin: 0%;
+}
+
+.ppal{
+    padding-top: 35px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+.ppal:hover{
+    text-shadow: 0 0 5px #0086b7, 
+}
+
+.secundario{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+}
+
+.secundario:hover{
+    color: rgb(7, 7, 10);
+    text-shadow: 0 0 5px #006bb7, 
+    0 0 25px #7ea2bb,
+    0 0 50px #7ea2bb,
+    0 0 100px #7ea2bb;
+}
+
+.leyenda{
+    font-family: 'Bad Script', cursive;
+    color: rgb(255, 255, 255);
+    padding-top: 400px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+
+
+/*...........SECCIÓN DE PROYECTOS.....................*/
+
+
+.titulodeproyectos{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 580px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: grey;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+
+.container .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0 1 rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+
+
+/*...............SECCION DE NOSOTROS................................*/
+
+#nosotros{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.11);
+}
+
+#nos{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
+}
+
+.parrafo{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 35px;
+}
+
+
+
+.equipo p{
+    font-family: sans-serif;
+}
+
+#equipo{
+    height:400px;
+    width:500px;
+}
+
+
+
+
+
+/*...............SECCION DE COTIZACIONES................................*/
+
+
+#cotizaciones{
+    background: url(imagenes/fondoCotizaciones.jpg);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+
+#formularioProceso{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Dancing Script;
+}
+
+
+label{
+    color: white;
+    font-family: 'Alice', serif;
+}
+
+
+
+input, textarea, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px; 
+    max-width: 100%;
+}
+
+button{
+    background: orange; 
+    color: #fff;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/*...............SECCION DE CONTACTO................................*/
+
+
+#contacto{
+    background: url(imagenes/fondoContacto.jpg);
+    display: flex;
+    margin: 0;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+label{
+    color: white;
+    font-family: 'Alice', serif;
+}
+
+
+
+input, textarea, select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px; 
+    max-width: 100%;
+}
+
+
+#boton {
+    background: orange; 
+    color: #fff;
+    padding: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media(max-width:480px){     /*acá le agrego funcion de mediaQuery*/
+    form{
+        width: 100%;
+    }
+}
