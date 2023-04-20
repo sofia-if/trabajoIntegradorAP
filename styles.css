@@ -201,7 +201,7 @@ nav a:hover{
     padding-top: 200px;
     padding-bottom: 100px;
     margin: 0;
-    background-color:rgba(255, 255, 255, 0.11);
+   /* background-color:rgba(255, 255, 255, 0.11);*/
 }
 
 #nos{
@@ -305,7 +305,7 @@ button{
 
 
 #contacto{
-    background: url(imagenes/fondoContacto.jpg);
+    background: url(imagenes/fondoContactos.jpeg);
     display: flex;
     margin: 0;
 }
